@@ -45,9 +45,10 @@
 
 <body>
 	
-		<a href="./index.html" id="shang" class="esri-component esri-widget-button esri-widget esri-icon-layers"></a>
     <div id="viewDiv"></div>
     <div id="infoDiv">
+	
+		<a href="./index.html" id="shang" class="esri-component esri-widget-button esri-widget esri-icon-layers"></a>
         <input class="esri-component esri-widget-button esri-widget esri-interactive" type="button"
                id="switch-btn" value="3D">
     </div>
@@ -77,7 +78,7 @@
                 zoom: 5,
                 center: [122.45, 37.75]
             })
-			view.ui.add(document.getElementById("shang"),"top-right")
+			//view.ui.add(document.getElementById("shang"),"top-right")
             var data = [
                 { name: '海门', value: 9 },
                 { name: '鄂尔多斯', value: 12 },
